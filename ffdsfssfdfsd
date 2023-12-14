@@ -1,0 +1,44 @@
+----------------temp, dew, humid, cases
+past_cases_interval = 25
+past_weather_interval = 1
+MeanAbsError =  88.65
+
+past_cases_interval = 20
+past_weather_interval = 1
+MeanAbsError =  88.1
+
+past_cases_interval = 15
+past_weather_interval = 1
+
+min_temp 17 1
+MeanAbsError =  75.9
+
+min_temp 16 1
+MeanAbsError =  74.7
+------------------------kernel
+rbf
+'degree': 1
+MeanAbsError =  88.1
+
+poly
+'degree': 1
+MeanAbsError =  77.55
+
+'degree': 2
+MeanAbsError =  87.2
+
+'degree': 3
+MeanAbsError =  103.05
+-----------------------------C , epsilon
+min_temp 15 1
+MeanAbsError =  73.9
+'C': 5000
+
+'C': 6000
+MeanAbsError =  71.35
+'epsilon': 10
+
+'epsilon': 20
+MeanAbsError =  72.75
+
+
